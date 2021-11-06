@@ -18,4 +18,7 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44;
+let cats = 44, rows = 5;
+
+console.log(Math.ceil(cats/rows));
+if(cats%rows) console.log(5 - (cats%rows));
