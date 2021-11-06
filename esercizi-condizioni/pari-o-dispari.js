@@ -15,3 +15,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let n = prompt('Inserisci un numero');
+
+if (n % 2)
+  console.log(`${n} è dispari`);
+else
+  console.log(`${n} è pari`);
