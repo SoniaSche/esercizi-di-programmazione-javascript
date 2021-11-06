@@ -13,4 +13,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var time = 0;
+let time = 12560;
+let hour = Math.trunc((time / 60) / 60);
+let minutes = Math.trunc((time - (hour * 60 * 60)) / 60);
+let seconds = time - (((hour * 60) + minutes) * 60);
+
+console.log(`${hour} ore, ${minutes} minuti e ${seconds} secondi`)

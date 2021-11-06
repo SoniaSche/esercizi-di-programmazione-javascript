@@ -11,3 +11,8 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let currentYear = 2018;
+let birthYear = 1991;
+
+console.log(`età = ${currentYear - birthYear}, anni mancanti = ${100 - (currentYear - birthYear)}`);
