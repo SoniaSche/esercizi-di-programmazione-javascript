@@ -20,5 +20,5 @@
 
 let cats = 44, rows = 5;
 
-console.log(Math.ceil(cats/rows));
-if(cats%rows) console.log(5 - (cats%rows));
+console.log(`${cats} gatti su ${Math.ceil(cats/rows)} file da ${rows}`);
+if(cats%rows) console.log(`con ${5 - (cats%rows)} mancanti`);
